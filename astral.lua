@@ -1,8 +1,7 @@
 --[[
     Meme Dash - Astral v1.0.2
-    - Button: Quick click = Toggle Menu, Long hold = Toggle Script.
+    - Button: Quick click = Toggle Menu.
     - Auto image fallback.
-    - Fixed button freezing issues.
 ]]
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
@@ -23,10 +22,8 @@ local TARGET_NAMES = {"Freddy", "maxwell", "TrollFace", "Gi-hun", "HN", "Nerd", 
 local State = {
     AutoFarm = false, FarmMoney = true, FarmXP = true, FarmEvent = false,
     AutoJump = false, 
-    
     EnableSpeed = false, WalkSpeed = 16,
     EnableJump = false, JumpHeight = 50,
-    
     FlyEnabled = false, FlySpeed = 50, Noclip = false,
     ESPNextbot = false, ESPPlayer = false, ESPMode = "Highlight",
     ESPNextbotColor = Color3.fromRGB(255, 0, 0), ESPPlayerColor = Color3.fromRGB(0, 255, 0),
@@ -40,9 +37,6 @@ local ScriptEnabled = true
 local Window = nil
 local isSpeedHooked = false
 
--- ==========================================================
--- 1. HOOK METATABLE
--- ==========================================================
 local function HookProperties()
     if isSpeedHooked then return end
     pcall(function()
@@ -86,9 +80,6 @@ local function getChar()
     return char, hrp, hum
 end
 
--- ==========================================================
--- 2. FUNCTIONS
--- ==========================================================
 local function isTarget(model)
     if model == LP.Character then return false end
     if NEXTBOT_FOLDER then
@@ -303,12 +294,9 @@ local function farmLoop()
     end
 end
 
--- ==========================================================
--- 3. FLUENT UI
--- ==========================================================
 Window = Fluent:CreateWindow({
     Title = "Astral | Meme Dash",
-    SubTitle = "Beta v1.0.1", -- Đã đổi tên ở đây
+    SubTitle = "Beta v1.0.1",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
     Acrylic = false,
@@ -396,9 +384,6 @@ Tabs.Misc:AddToggle("AntiNextbot", { Title = "Anti Nextbot", Default = false }):
 end)
 Tabs.Misc:AddSlider("AntiNextbotRange", { Title = "Anti Range", Default = 50, Min = 10, Max = 200, Rounding = 0 }):OnChanged(function(v) State.AntiNextbotRange = v end)
 
--- ==========================================================
--- 4. LOGO BUTTON (CLEAN, NO BLACK BORDER)
--- ==========================================================
 local function createLogoButton()
     pcall(function()
         if CoreGui:FindFirstChild("AstralMainGui") then CoreGui.AstralMainGui:Destroy() end
