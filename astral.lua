@@ -1,12 +1,495 @@
 --[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+    Meme Dash - Astral v1.0.2
+    - Button: Quick click = Toggle Menu.
+    - Auto image fallback.
+    - Max WalkSpeed: 250
+]]
 
-]]--
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
-local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==81) then v19=v0(v3(v30,1,1));return "";else local v84=v2(v0(v30,16));if v19 then local v92=v5(v84,v19);v19=nil;return v92;else return v84;end end end);local function v20(v31,v32,v33) if v33 then local v85=0 -0 ;local v86;while true do if (v85==(0 -0)) then v86=(v31/((3 -1)^(v32-(2 -1))))%((621 -(555 + 64))^(((v33-(932 -(857 + 74))) -(v32-(569 -(367 + 201)))) + 1)) ;return v86-(v86%1) ;end end else local v87=927 -(214 + 713) ;local v88;while true do if (v87==(0 + 0)) then v88=(1 + (1 -0))^(v32-((1943 -(68 + 997)) -(282 + (1865 -(226 + 1044))))) ;return (((v31%(v88 + v88))>=v88) and (1638 -((6631 -5108) + 114))) or (0 + 0) ;end end end end local function v21() local v34=117 -(32 + (157 -72)) ;local v35;while true do if (v34==(1 + 0)) then return v35;end if (v34==((0 -0) + 0)) then v35=v1(v16,v18,v18);v18=v18 + (958 -(892 + 65)) ;v34=2 -1 ;end end end local function v22() local v36=350 -(87 + 263) ;local v37;local v38;while true do if (v36==1) then return (v38 * (436 -(67 + 113))) + v37 ;end if (v36==(0 + 0)) then v37,v38=v1(v16,v18,v18 + (4 -2) );v18=v18 + 2 + 0 ;v36=1 + 0 ;end end end local function v23() local v39=0 -0 ;local v40;local v41;local v42;local v43;while true do if (v39==(1 + 0)) then return (v43 * 16777216) + (v42 * (86188 -20652)) + (v41 * (1443 -(1069 + 118))) + v40 ;end if (v39==0) then v40,v41,v42,v43=v1(v16,v18,v18 + ((2 + 4) -3) );v18=v18 + (8 -4) ;v39=1;end end end local function v24() local v44=v23();local v45=v23();local v46=1;local v47=(v20(v45,1 -0 ,20 + 0 ) * (2^(823 -(368 + 423)))) + v44 ;local v48=v20(v45,65 -44 ,31);local v49=((v20(v45,50 -(10 + 8) )==(3 -2)) and  -(443 -((1275 -(814 + 45)) + 26))) or (3 -2) ;if (v48==(0 + 0)) then if (v47==0) then return v49 * (0 -0) ;else local v93=438 -(145 + 293) ;while true do if ((430 -(44 + 386))==v93) then v48=1487 -(998 + (1202 -714)) ;v46=0 + 0 ;break;end end end elseif (v48==(1677 + 370)) then return ((v47==(772 -(201 + 31 + 540))) and (v49 * ((1139 -(116 + 1022))/(0 -0)))) or (v49 * NaN) ;end return v8(v49,v48-(213 + 388 + 422) ) * (v46 + (v47/(((892 -(261 + 624)) -(8 -3))^(184 -132)))) ;end local function v25(v50) local v51;if  not v50 then v50=v23();if (v50==(1080 -(1020 + 60))) then return "";end end v51=v3(v16,v18,(v18 + v50) -(1424 -(630 + 793)) );v18=v18 + v50 ;local v52={};for v67=3 -2 , #v51 do v52[v67]=v2(v1(v3(v51,v67,v67)));end return v6(v52);end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v53=(function() return 0 + 0 ;end)();local v54=(function() return;end)();local v55=(function() return;end)();local v56=(function() return;end)();local v57=(function() return;end)();local v58=(function() return;end)();local v59=(function() return;end)();local v60=(function() return;end)();while true do local v69=(function() return 1456 -(282 + 1174) ;end)();while true do if ((0 + 0)==v69) then if (v53==(2 -0)) then local v98=(function() return 0 -0 ;end)();while true do if ((2 -1)==v98) then v58[ #"19("]=(function() return v21();end)();v53=(function() return 8 -5 ;end)();break;end if (v98~=0) then else v60=(function() return {};end)();for v149= #",",v59 do local v150=(function() return 0 + 0 ;end)();local v151=(function() return;end)();local v152=(function() return;end)();local v153=(function() return;end)();while true do if (v150==1) then v153=(function() return nil;end)();while true do if (v151==(1024 -(706 + 318))) then local v179=(function() return 285 -(134 + 151) ;end)();local v180=(function() return;end)();while true do if (v179~=0) then else v180=(function() return 1251 -(721 + 530) ;end)();while true do if (v180~=1) then else v151=(function() return 1666 -(970 + 695) ;end)();break;end if (v180~=(1271 -(945 + 326))) then else v152=(function() return v21();end)();v153=(function() return nil;end)();v180=(function() return 1;end)();end end break;end end end if ((1 -0)==v151) then if (v152== #"\\") then v153=(function() return v21()~=(1990 -(582 + 1408)) ;end)();elseif (v152==(2 + 0)) then v153=(function() return v24();end)();elseif (v152== #"19(") then v153=(function() return v25();end)();end v60[v149]=(function() return v153;end)();break;end end break;end if (v150~=0) then else local v170=(function() return 0 -0 ;end)();while true do if (v170~=(0 -0)) then else v151=(function() return 0 -0 ;end)();v152=(function() return nil;end)();v170=(function() return 1 + 0 ;end)();end if (v170~=(1501 -(1408 + 92))) then else v150=(function() return 1;end)();break;end end end end end v98=(function() return 1;end)();end end end if (v53~=3) then else for v100= #",",v23() do local v101=(function() return v21();end)();if (v20(v101, #">", #"/")~=(1824 -(1195 + 629))) then else local v142=(function() return 0 -0 ;end)();local v143=(function() return;end)();local v144=(function() return;end)();local v145=(function() return;end)();local v146=(function() return;end)();while true do if (v142==2) then while true do if (v143== #"}") then local v172=(function() return 241 -(187 + 54) ;end)();local v173=(function() return;end)();while true do if (v172==0) then v173=(function() return 1288 -(993 + 295) ;end)();while true do if (v173==0) then v146=(function() return {v22(),v22(),nil,nil};end)();if (v144==(780 -(162 + 618))) then local v184=(function() return 0 + 0 ;end)();local v185=(function() return;end)();while true do if (v184==0) then v185=(function() return 0;end)();while true do if (v185~=(0 + 0)) then else v146[ #"-19"]=(function() return v22();end)();v146[ #".com"]=(function() return v22();end)();break;end end break;end end elseif (v144== #" ") then v146[ #"-19"]=(function() return v23();end)();elseif (v144==(1 + 1)) then v146[ #"xxx"]=(function() return v23() -(2^(2 + 14)) ;end)();elseif (v144~= #"91(") then else local v192=(function() return 0 -0 ;end)();while true do if (v192~=(0 + 0)) then else v146[ #"-19"]=(function() return v23() -(2^(545 -(406 + 123))) ;end)();v146[ #"asd1"]=(function() return v22();end)();break;end end end v173=(function() return 1;end)();end if (v173==(1 -0)) then v143=(function() return 1 + 1 ;end)();break;end end break;end end end if (v143== #"xnx") then if (v20(v145, #"xxx", #"91(")== #"}") then v146[ #"http"]=(function() return v60[v146[ #"asd1"]];end)();end v55[v100]=(function() return v146;end)();break;end if (0~=v143) then else local v175=(function() return 0 + 0 ;end)();local v176=(function() return;end)();while true do if (v175==0) then v176=(function() return 1322 -(1249 + 73) ;end)();while true do if ((0 + 0)~=v176) then else v144=(function() return v20(v101,1638 -(1373 + 263) , #"xnx");end)();v145=(function() return v20(v101, #"0313",1006 -(451 + 549) );end)();v176=(function() return 1 + 0 ;end)();end if (v176~=(2 -1)) then else v143=(function() return  #" ";end)();break;end end break;end end end if (v143~=(2 -0)) then else local v177=(function() return 0 -0 ;end)();local v178=(function() return;end)();while true do if (v177==(0 + 0)) then v178=(function() return 1384 -(746 + 638) ;end)();while true do if (v178==(0 + 0)) then if (v20(v145, #"!", #":")~= #"<") then else v146[2]=(function() return v60[v146[2 -0 ]];end)();end if (v20(v145,343 -(218 + 123) ,1583 -(1535 + 46) )== #":") then v146[ #"19("]=(function() return v60[v146[ #"91("]];end)();end v178=(function() return 1;end)();end if ((2 -1)==v178) then v143=(function() return  #"19(";end)();break;end end break;end end end end break;end if (v142~=(1 + 0)) then else local v162=(function() return 0;end)();while true do if ((585 -(57 + 527))==v162) then v142=(function() return 2;end)();break;end if (v162==(1427 -(41 + 1386))) then v145=(function() return nil;end)();v146=(function() return nil;end)();v162=(function() return 1 + 0 ;end)();end end end if ((560 -(306 + 254))~=v142) then else local v163=(function() return 0;end)();local v164=(function() return;end)();while true do if (v163==(0 -0)) then v164=(function() return 0;end)();while true do if ((0 + 0)==v164) then v143=(function() return 0;end)();v144=(function() return nil;end)();v164=(function() return 1 -0 ;end)();end if (v164==1) then v142=(function() return 1;end)();break;end end break;end end end end end end for v102= #"{",v23() do v56,v102,v28=(function() return v54(v56,v102,v28);end)();end return v58;end v69=(function() return 2 -1 ;end)();end if (v69==(167 -(122 + 44))) then if (v53~=0) then else v54=(function() return function(v103,v104,v105) local v106=(function() return 0;end)();local v107=(function() return;end)();while true do if ((1467 -(899 + 568))==v106) then v107=(function() return 0 -0 ;end)();while true do if (v107==(0 -0)) then local v171=(function() return 0;end)();while true do if (v171==(0 + 0)) then v103[v104-#"}" ]=(function() return v105();end)();return v103,v104,v105;end end end end break;end end end;end)();v55=(function() return {};end)();v56=(function() return {};end)();v53=(function() return 2 -1 ;end)();end if (v53==1) then local v99=(function() return 0;end)();while true do if ((603 -(268 + 335))~=v99) then else v57=(function() return {};end)();v58=(function() return {v55,v56,nil,v57};end)();v99=(function() return 291 -(60 + 230) ;end)();end if (v99==1) then v59=(function() return v23();end)();v53=(function() return 574 -(426 + 146) ;end)();break;end end end break;end end end end local function v29(v61,v62,v63) local v64=v61[66 -(30 + 35) ];local v65=v61[2 + 0 + 0 ];local v66=v61[3];return function(...) local v70=v64;local v71=v65;local v72=v66;local v73=v27;local v74=1258 -((1544 -501) + 214) ;local v75= -((339 -(144 + 192)) -2);local v76={};local v77={...};local v78=v12("#",...) -(1213 -(323 + 889)) ;local v79={};local v80={};for v89=0 -0 ,v78 do if ((2999>1156) and (630<2127) and (v89>=v72)) then v76[v89-v72 ]=v77[v89 + (581 -(361 + 219)) ];else v80[v89]=v77[v89 + (321 -(53 + 267)) ];end end local v81=(v78-v72) + 1 + 0 ;local v82;local v83;while true do v82=v70[v74];v83=v82[1];if (v83<=(219 -(42 + 174))) then if (v83<=(414 -(15 + 398))) then if ((2350>1155) and ((v83==0) or (1938==2514))) then v80[v82[2]]=v63[v82[985 -(18 + 964) ]];else v80[v82[7 -5 ]]=v82[2 + 1 ];end elseif (v83>2) then do return;end else local v112=0 + 0 ;local v113;while true do if (v112==(850 -(20 + 830))) then v113=v82[2];v80[v113]=v80[v113](v13(v80,v113 + 1 + 0 ,v75));break;end end end elseif (v83<=(131 -(88 + 28 + 10))) then if ((4029<=4853) and (v83==4)) then local v114=0;local v115;local v116;while true do if ((v114==(0 + 0)) or (516>3434)) then v115=v82[2 + 0 ];v116=v80[v82[741 -(542 + 196) ]];v114=1 -0 ;end if ((4255>=55) and (1==v114)) then v80[v115 + 1 + 0 ]=v116;v80[v115]=v116[v82[3 + 1 ]];break;end end else v80[v82[2]]();end elseif (v83>(2 + 1 + 3)) then local v117;local v118,v119;local v120;local v121;v80[v82[4 -2 ]]=v63[v82[7 -4 ]];v74=v74 + (1552 -(1126 + 425)) ;v82=v70[v74];v80[v82[(1911 -(363 + 1141)) -(118 + 287) ]]=v63[v82[11 -8 ]];v74=v74 + (1122 -(118 + (2583 -(1183 + 397)))) ;v82=v70[v74];v121=v82[5 -3 ];v120=v80[v82[8 -5 ]];v80[v121 + (378 -(105 + 37 + 235)) ]=v120;v80[v121]=v120[v82[18 -14 ]];v74=v74 + 1 + 0 + (1975 -(1913 + 62)) ;v82=v70[v74];v80[v82[979 -(553 + 424) ]]=v82[5 -2 ];v74=v74 + 1 + 0 ;v82=v70[v74];v121=v82[2 + 0 ];v118,v119=v73(v80[v121](v13(v80,v121 + 1 ,v82[2 + 1 ])));v75=(v119 + v121) -(1 + 0) ;v117=0;for v147=v121,v75 do local v148=0 + 0 ;while true do if (v148==(0 -(0 + 0))) then v117=v117 + ((5 -3) -1) ;v80[v147]=v118[v117];break;end end end v74=v74 + (2 -1) ;v82=v70[v74];v121=v82[1 + 1 ];v80[v121]=v80[v121](v13(v80,v121 + (4 -3) ,v75));v74=v74 + (754 -(239 + 514)) ;v82=v70[v74];v80[v82[1935 -(565 + 1368) ]]();v74=v74 + 1 + 0 ;v82=v70[v74];do return;end else local v136=1329 -(797 + 532) ;local v137;local v138;local v139;local v140;while true do if (v136==(0 + (0 -0))) then v137=v82[1 + 1 ];v138,v139=v73(v80[v137](v13(v80,v137 + (2 -(1662 -(1477 + 184))) ,v82[1205 -(373 + 829) ])));v136=732 -(476 + 255) ;end if (v136==(1131 -(369 + 761))) then v75=(v139 + v137) -(1 + 0) ;v140=0;v136=2 -0 ;end if (v136==2) then for v167=v137,v75 do v140=v140 + (1 -0) ;v80[v167]=v138[v140];end break;end end end v74=v74 + ((324 -85) -(64 + 174)) ;end end;end return v29(v28(),{},v17)(...);end return v15("LOL!043Q00030A3Q006C6F6164737472696E6703043Q0067616D6503073Q00482Q7470476574035D3Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F6C6562616F6E616D303331302D706E672F41737472616C2D4D656D65646173682F726566732F68656164732F6D61696E2F61737472616C2E6C756100083Q0012073Q00013Q00122Q000100023Q00202Q00010001000300122Q000300046Q000100039Q0000026Q000100016Q00017Q00",v9(),...);
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local Workspace = game:GetService("Workspace")
+local VirtualUser = game:GetService("VirtualUser")
+local CoreGui = game:GetService("CoreGui")
+
+local LP = Players.LocalPlayer
+local Camera = Workspace.CurrentCamera
+
+local LOGO_ID = "rbxassetid://122642388068501" 
+local TARGET_NAMES = {"Freddy", "maxwell", "TrollFace", "Gi-hun", "HN", "Nerd", "Peanut"}
+
+local State = {
+    AutoFarm = false, FarmMoney = true, FarmXP = true, FarmEvent = false,
+    AutoJump = false, 
+    EnableSpeed = false, WalkSpeed = 16,
+    EnableJump = false, JumpHeight = 50,
+    FlyEnabled = false, FlySpeed = 50, Noclip = false,
+    ESPNextbot = false, ESPPlayer = false, ESPMode = "Highlight",
+    ESPNextbotColor = Color3.fromRGB(255, 0, 0), ESPPlayerColor = Color3.fromRGB(0, 255, 0),
+    ESPShowName = true, AntiNextbot = false, AntiNextbotRange = 50,
+    TargetNames = TARGET_NAMES,
+}
+
+local Connections = {}
+local FlyConnection, AntiNextbotConn, NoclipConn, SpeedConn, JumpConn
+local ScriptEnabled = true
+local Window = nil
+local isSpeedHooked = false
+
+local function HookProperties()
+    if isSpeedHooked then return end
+    pcall(function()
+        local oldIndex
+        local mt = getrawmetatable(game)
+        setreadonly(mt, false)
+        oldIndex = mt.__newindex
+        mt.__newindex = newcclosure(function(t, k, v)
+            if ScriptEnabled and t:IsA("Humanoid") then
+                if k == "WalkSpeed" and State.EnableSpeed and (v == 10 or v == 16 or v < State.WalkSpeed) then
+                    return oldIndex(t, k, State.WalkSpeed)
+                elseif k == "JumpHeight" and State.EnableJump and (v == 5 or v < State.JumpHeight) then
+                    return oldIndex(t, k, State.JumpHeight)
+                end
+            end
+            return oldIndex(t, k, v)
+        end)
+        setreadonly(mt, true)
+        isSpeedHooked = true
+    end)
+end
+HookProperties()
+
+local NEXTBOT_FOLDER = Workspace:FindFirstChild("Nextbots")
+if not NEXTBOT_FOLDER then
+    task.spawn(function()
+        for i = 1, 60 do
+            task.wait(1)
+            NEXTBOT_FOLDER = Workspace:FindFirstChild("Nextbots")
+            if NEXTBOT_FOLDER then break end
+        end
+    end)
+end
+
+local function getChar()
+    local char = LP.Character
+    if not char then return nil end
+    local hrp = char:FindFirstChild("HumanoidRootPart")
+    local hum = char:FindFirstChildOfClass("Humanoid")
+    if not hrp or not hum or hum.Health <= 0 then return nil end
+    return char, hrp, hum
+end
+
+local function isTarget(model)
+    if model == LP.Character then return false end
+    if NEXTBOT_FOLDER then
+        if not model:IsDescendantOf(NEXTBOT_FOLDER) then return false end
+    else
+        local found = false
+        for _, name in ipairs(State.TargetNames) do
+            if model.Name:lower():find(name:lower()) then found = true break end
+        end
+        if not found then return false end
+    end
+    local hum = model:FindFirstChildOfClass("Humanoid")
+    return hum and hum.Health > 0
+end
+
+local function findNearestTarget(range)
+    local char, hrp = getChar()
+    if not char or not hrp then return nil end
+    local folder = NEXTBOT_FOLDER or Workspace
+    local nearest, nearestDist = nil, range or 200
+    for _, obj in ipairs(folder:GetDescendants()) do
+        if obj:IsA("Model") and isTarget(obj) then
+            local tHrp = obj:FindFirstChild("HumanoidRootPart")
+            if tHrp then
+                local d = (tHrp.Position - hrp.Position).Magnitude
+                if d < nearestDist then nearest, nearestDist = obj, d end
+            end
+        end
+    end
+    return nearest
+end
+
+local function startSpeedEngine()
+    if SpeedConn then SpeedConn:Disconnect() end
+    SpeedConn = RunService.RenderStepped:Connect(function()
+        if not ScriptEnabled then return end
+        local char, hrp, hum = getChar()
+        if not hum then return end
+        if State.EnableSpeed and State.WalkSpeed > 16 then
+            if hum.WalkSpeed ~= State.WalkSpeed then hum.WalkSpeed = State.WalkSpeed end
+            if hum:GetState() == Enum.HumanoidStateType.Freefall and hrp.AssemblyLinearVelocity.Y < -5 then
+                local moveDir = hum.MoveDirection
+                if moveDir.Magnitude > 0 then
+                    hrp.AssemblyLinearVelocity = Vector3.new(moveDir.X * State.WalkSpeed, hrp.AssemblyLinearVelocity.Y, moveDir.Z * State.WalkSpeed)
+                end
+            end
+        end
+    end)
+end
+
+local function startJumpEngine()
+    if JumpConn then JumpConn:Disconnect() end
+    JumpConn = RunService.Heartbeat:Connect(function()
+        if not ScriptEnabled then return end
+        local char, hrp, hum = getChar()
+        if not hum then return end
+        if State.EnableJump then
+            if hum.UseJumpPower then hum.UseJumpPower = false end
+            if math.abs(hum.JumpHeight - State.JumpHeight) > 0.1 then hum.JumpHeight = State.JumpHeight end
+        end
+    end)
+end
+
+local function startNoclip()
+    if NoclipConn then NoclipConn:Disconnect() end
+    NoclipConn = RunService.Stepped:Connect(function()
+        if not ScriptEnabled or not State.Noclip then return end
+        local char = LP.Character
+        if char then
+            for _, v in pairs(char:GetDescendants()) do
+                if v:IsA("BasePart") and v.CanCollide then v.CanCollide = false end
+            end
+        end
+    end)
+end
+
+local function startFly()
+    if FlyConnection then FlyConnection:Disconnect() end
+    local char, hrp, hum = getChar()
+    if not char or not hrp then return end
+    hum.PlatformStand = true
+    local bodyVel = Instance.new("BodyVelocity")
+    bodyVel.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+    bodyVel.Velocity = Vector3.zero
+    bodyVel.Parent = hrp
+    FlyConnection = RunService.RenderStepped:Connect(function()
+        if not ScriptEnabled then return end
+        local c, h = getChar()
+        if not c or not h or not Camera.Parent then return end
+        local dir = Vector3.zero
+        if UserInputService:IsKeyDown(Enum.KeyCode.W) then dir += Camera.CFrame.LookVector end
+        if UserInputService:IsKeyDown(Enum.KeyCode.S) then dir -= Camera.CFrame.LookVector end
+        if UserInputService:IsKeyDown(Enum.KeyCode.A) then dir -= Camera.CFrame.RightVector end
+        if UserInputService:IsKeyDown(Enum.KeyCode.D) then dir += Camera.CFrame.RightVector end
+        if UserInputService:IsKeyDown(Enum.KeyCode.Space) then dir += Vector3.new(0,1,0) end
+        if UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then dir -= Vector3.new(0,1,0) end
+        bodyVel.Velocity = dir.Magnitude > 0 and dir.Unit * State.FlySpeed or Vector3.zero
+    end)
+end
+
+local function stopFly()
+    if FlyConnection then FlyConnection:Disconnect() FlyConnection = nil end
+    local char, hrp, hum = getChar()
+    if hrp then
+        local bv = hrp:FindFirstChildOfClass("BodyVelocity")
+        if bv then bv:Destroy() end
+    end
+    if hum then hum.PlatformStand = false end
+end
+
+local ESP = { Cache = {}, Connections = {}, UpdateRate = 1/15 }
+local function clearESP()
+    for model, data in pairs(ESP.Cache) do
+        if data.highlight then data.highlight:Destroy() end
+        if data.billboard then data.billboard:Destroy() end
+    end
+    ESP.Cache = {}
+end
+
+local function attachESP(model, color, showName)
+    if ESP.Cache[model] then return end
+    local data = {}
+    local hl = Instance.new("Highlight")
+    hl.Adornee = model; hl.FillColor = color; hl.OutlineColor = Color3.new(1,1,1)
+    hl.FillTransparency = 0.5; hl.OutlineTransparency = 1; hl.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+    hl.Parent = model; data.highlight = hl
+    if showName then
+        local head = model:FindFirstChild("Head") or model:FindFirstChild("HumanoidRootPart")
+        if head then
+            local bb = Instance.new("BillboardGui")
+            bb.Size = UDim2.new(0, 100, 0, 20); bb.StudsOffset = Vector3.new(0, 3, 0); bb.AlwaysOnTop = true; bb.Adornee = head; bb.Parent = model
+            local tl = Instance.new("TextLabel")
+            tl.Size = UDim2.new(1,0,1,0); tl.BackgroundTransparency = 1; tl.Text = model.Name
+            tl.TextColor3 = color; tl.TextStrokeTransparency = 0; tl.TextScaled = true; tl.Parent = bb
+            data.billboard = bb
+        end
+    end
+    ESP.Cache[model] = data
+end
+
+local function detachESP(model)
+    local data = ESP.Cache[model]
+    if not data then return end
+    if data.highlight then data.highlight:Destroy() end
+    if data.billboard then data.billboard:Destroy() end
+    ESP.Cache[model] = nil
+end
+
+local function startESP()
+    if ESP.Connections.scan then ESP.Connections.scan:Disconnect() end
+    local lastScan = 0
+    ESP.Connections.scan = RunService.Heartbeat:Connect(function()
+        if not ScriptEnabled or not (State.ESPNextbot or State.ESPPlayer) then return end
+        local now = tick()
+        if now - lastScan < ESP.UpdateRate then return end
+        lastScan = now
+        local seen = {}
+        if State.ESPNextbot then
+            local folder = NEXTBOT_FOLDER or Workspace
+            for _, obj in ipairs(folder:GetDescendants()) do
+                if obj:IsA("Model") and isTarget(obj) then
+                    seen[obj] = true; attachESP(obj, State.ESPNextbotColor, State.ESPShowName)
+                end
+            end
+        end
+        if State.ESPPlayer then
+            for _, plr in ipairs(Players:GetPlayers()) do
+                if plr ~= LP and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
+                    seen[plr.Character] = true; attachESP(plr.Character, State.ESPPlayerColor, State.ESPShowName)
+                end
+            end
+        end
+        for model in pairs(ESP.Cache) do
+            if not seen[model] then detachESP(model) end
+        end
+    end)
+end
+
+local function startAntiNextbot()
+    if AntiNextbotConn then AntiNextbotConn:Disconnect() end
+    AntiNextbotConn = RunService.Heartbeat:Connect(function()
+        if not ScriptEnabled or not State.AntiNextbot then return end
+        local char, hrp = getChar()
+        if not char or not hrp then return end
+        local folder = NEXTBOT_FOLDER or Workspace
+        for _, obj in ipairs(folder:GetChildren()) do
+            if obj:IsA("Model") and isTarget(obj) then
+                local tHrp = obj:FindFirstChild("HumanoidRootPart")
+                if tHrp and (tHrp.Position - hrp.Position).Magnitude < State.AntiNextbotRange then
+                    hrp.CFrame = CFrame.new(hrp.Position + (hrp.Position - tHrp.Position).Unit * 100 + Vector3.new(0, 50, 0))
+                    break
+                end
+            end
+        end
+    end)
+end
+
+local function farmLoop()
+    if not ScriptEnabled or not State.AutoFarm then return end
+    local char, hrp = getChar()
+    if not char or not hrp then return end
+    if State.FarmEvent then hrp.CFrame = CFrame.new(hrp.Position.X, 500, hrp.Position.Z) end
+    if State.FarmMoney or State.FarmXP then
+        local target = findNearestTarget(200)
+        if target then
+            local tHrp = target:FindFirstChild("HumanoidRootPart")
+            if tHrp then
+                if (tHrp.Position - hrp.Position).Magnitude > 10 then hrp.CFrame = CFrame.new(tHrp.Position + Vector3.new(0, 3, 0)) end
+                pcall(function() VirtualUser:Button1Down(Vector2.new(0,0)); task.wait(0.05); VirtualUser:Button1Up(Vector2.new(0,0)) end)
+            end
+        end
+    end
+end
+
+Window = Fluent:CreateWindow({
+    Title = "Astral | Meme Dash",
+    SubTitle = "Beta v1.0.1",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 460),
+    Acrylic = false,
+    Theme = "Dark",
+    MinimizeKey = nil
+})
+
+local Tabs = {
+    Farm = Window:AddTab({ Title = "AutoFarm", Icon = "tractor" }),
+    Player = Window:AddTab({ Title = "Player", Icon = "user" }),
+    Visual = Window:AddTab({ Title = "Visual", Icon = "eye" }),
+    Misc = Window:AddTab({ Title = "Misc", Icon = "settings" }),
+}
+
+Tabs.Farm:AddToggle("AutoFarm", { Title = "Auto Farm", Default = false }):OnChanged(function(v)
+    State.AutoFarm = v
+    if v then
+        if Connections.farm then Connections.farm:Disconnect() end
+        Connections.farm = RunService.Heartbeat:Connect(function() pcall(farmLoop) end)
+    else
+        if Connections.farm then Connections.farm:Disconnect() end
+    end
+end)
+Tabs.Farm:AddToggle("FarmMoney", { Title = "Farm Money", Default = true }):OnChanged(function(v) State.FarmMoney = v end)
+Tabs.Farm:AddToggle("FarmXP", { Title = "Farm XP", Default = true }):OnChanged(function(v) State.FarmXP = v end)
+Tabs.Farm:AddToggle("FarmEvent", { Title = "Farm Event", Default = false }):OnChanged(function(v) State.FarmEvent = v end)
+
+Tabs.Player:AddToggle("EnableSpeed", { Title = "Enable WalkSpeed", Default = false }):OnChanged(function(v)
+    State.EnableSpeed = v
+    if not v then local _, _, hum = getChar(); if hum then hum.WalkSpeed = 16 end end
+end)
+Tabs.Player:AddSlider("WalkSpeed", { Title = "Walk Speed", Default = 16, Min = 16, Max = 250, Rounding = 0 }):OnChanged(function(v) 
+    State.WalkSpeed = v 
+    if State.EnableSpeed then local _, _, hum = getChar(); if hum then hum.WalkSpeed = v end end
+end)
+
+Tabs.Player:AddToggle("EnableJump", { Title = "Enable Jump Height", Default = false }):OnChanged(function(v)
+    State.EnableJump = v
+    if not v then local _, _, hum = getChar(); if hum then hum.UseJumpPower = true; hum.JumpPower = 50 end end
+end)
+Tabs.Player:AddSlider("JumpHeight", { Title = "Jump Height", Default = 50, Min = 50, Max = 500, Rounding = 0 }):OnChanged(function(v) 
+    State.JumpHeight = v 
+    if State.EnableJump then local _, _, hum = getChar(); if hum then hum.UseJumpPower = false; hum.JumpHeight = v end end
+end)
+
+Tabs.Player:AddToggle("AutoJump", { Title = "Auto Jump", Default = false }):OnChanged(function(v)
+    State.AutoJump = v
+    if v then
+        if Connections.jump then Connections.jump:Disconnect() end
+        Connections.jump = RunService.Heartbeat:Connect(function()
+            if State.AutoJump and ScriptEnabled then
+                local _, _, hum = getChar()
+                if hum and hum:GetState() ~= Enum.HumanoidStateType.Jumping then hum.Jump = true end
+            end
+        end)
+    else
+        if Connections.jump then Connections.jump:Disconnect() end
+    end
+end)
+
+Tabs.Player:AddToggle("Noclip", { Title = "Noclip (No Clip)", Default = false }):OnChanged(function(v)
+    State.Noclip = v
+    if v then startNoclip() else if NoclipConn then NoclipConn:Disconnect() end end
+end)
+Tabs.Player:AddToggle("Fly", { Title = "Fly", Default = false }):OnChanged(function(v)
+    State.FlyEnabled = v
+    if v then startFly() else stopFly() end
+end)
+Tabs.Player:AddSlider("FlySpeed", { Title = "Fly Speed", Default = 50, Min = 10, Max = 300, Rounding = 0 }):OnChanged(function(v) State.FlySpeed = v end)
+
+Tabs.Visual:AddToggle("ESPNextbot", { Title = "ESP Nextbot", Default = false }):OnChanged(function(v)
+    State.ESPNextbot = v
+    if v or State.ESPPlayer then startESP() else if ESP.Connections.scan then ESP.Connections.scan:Disconnect() end clearESP() end
+end)
+Tabs.Visual:AddToggle("ESPPlayer", { Title = "ESP Player", Default = false }):OnChanged(function(v)
+    State.ESPPlayer = v
+    if v or State.ESPNextbot then startESP() else if ESP.Connections.scan then ESP.Connections.scan:Disconnect() end clearESP() end
+end)
+Tabs.Visual:AddToggle("ESPShowName", { Title = "Show Name", Default = true }):OnChanged(function(v) State.ESPShowName = v; clearESP(); if State.ESPNextbot or State.ESPPlayer then startESP() end end)
+
+Tabs.Misc:AddSlider("FPSCap", { Title = "FPS Cap", Default = 60, Min = 60, Max = 360, Rounding = 0 }):OnChanged(function(v) pcall(function() if setfpscap then setfpscap(v) end end) end)
+Tabs.Misc:AddToggle("AntiNextbot", { Title = "Anti Nextbot", Default = false }):OnChanged(function(v)
+    State.AntiNextbot = v
+    if v then startAntiNextbot() else if AntiNextbotConn then AntiNextbotConn:Disconnect() end end
+end)
+Tabs.Misc:AddSlider("AntiNextbotRange", { Title = "Anti Range", Default = 50, Min = 10, Max = 200, Rounding = 0 }):OnChanged(function(v) State.AntiNextbotRange = v end)
+
+local function createLogoButton()
+    pcall(function()
+        if CoreGui:FindFirstChild("AstralMainGui") then CoreGui.AstralMainGui:Destroy() end
+    end)
+
+    local gui = Instance.new("ScreenGui")
+    gui.Name = "AstralMainGui"
+    gui.ResetOnSpawn = false
+    gui.DisplayOrder = 9999
+    pcall(function() gui.Parent = CoreGui end)
+    if not gui.Parent then gui.Parent = LP:WaitForChild("PlayerGui") end
+    
+    local holder = Instance.new("Frame")
+    holder.Size = UDim2.new(0, 55, 0, 55)
+    holder.Position = UDim2.new(0.9, 0, 0.4, 0)
+    holder.BackgroundColor3 = Color3.fromRGB(15, 15, 20)
+    holder.BorderSizePixel = 0
+    holder.Parent = gui
+
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(1, 0)
+    corner.Parent = holder
+
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(0, 170, 255)
+    stroke.Thickness = 2
+    stroke.Parent = holder
+
+    local btn = Instance.new("ImageButton")
+    btn.Size = UDim2.new(1, -6, 1, -6)
+    btn.Position = UDim2.new(0, 3, 0, 3)
+    btn.BackgroundTransparency = 1
+    btn.Image = LOGO_ID
+    btn.ScaleType = Enum.ScaleType.Fit
+    btn.Parent = holder
+
+    local btnCorner = Instance.new("UICorner")
+    btnCorner.CornerRadius = UDim.new(1, 0)
+    btnCorner.Parent = btn
+
+    local dragging, dragInput, dragStart, startPos, moved
+    holder.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true; moved = false
+            dragStart = input.Position; startPos = holder.Position
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then dragging = false end
+            end)
+        end
+    end)
+    holder.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+    UserInputService.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            local delta = input.Position - dragStart
+            if delta.Magnitude > 5 then moved = true end
+            holder.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+        end
+    end)
+
+    local isUIVisible = true
+    btn.MouseButton1Click:Connect(function()
+        if moved then return end
+        isUIVisible = not isUIVisible
+        
+        local found = false
+        for _, container in ipairs({CoreGui, LP:FindFirstChild("PlayerGui")}) do
+            if container then
+                for _, g in ipairs(container:GetChildren()) do
+                    if g:IsA("ScreenGui") and g.Name ~= "AstralMainGui" then
+                        if g:FindFirstChild("Main", true) or g:FindFirstChild("Acrylic", true) then
+                            g.Enabled = isUIVisible
+                            found = true
+                        end
+                    end
+                end
+            end
+        end
+        if not found and Window then
+            pcall(function() Window:Minimize() end)
+        end
+
+        stroke.Color = isUIVisible and Color3.fromRGB(0, 170, 255) or Color3.fromRGB(100, 100, 100)
+        holder.BackgroundTransparency = isUIVisible and 0.2 or 0.6
+    end)
+end
+
+createLogoButton()
+startSpeedEngine()
+startJumpEngine()
+Window:SelectTab(1)
+
+Fluent:Notify({
+    Title = "Astral Loaded",
+    Content = "Script loaded successfully. Max Speed: 250",
+    Duration = 5
+})
+
+LP.CharacterAdded:Connect(function(char)
+    task.wait(1)
+    clearESP()
+    if ScriptEnabled then
+        if State.ESPNextbot or State.ESPPlayer then startESP() end
+    end
+end)
